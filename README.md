@@ -31,7 +31,7 @@ or, if `app.py` is the primary runner:
 
 3. The script will generate `seeder_output.php` (or print to stdout). That file contains a PHP array you can paste into a Laravel seeder.
 
-**Example Input (simplified)**
+## Example Input (simplified)
 ```json
 {
     "reviews": [
@@ -47,7 +47,7 @@ or, if `app.py` is the primary runner:
 }
 ```
 
-**Example Output (PHP seeder array)**
+## Example Output (PHP seeder array)
 ```php
 <?php
     array (
@@ -64,9 +64,9 @@ or, if `app.py` is the primary runner:
     )
 ```
 
-**Notes**
+## Notes
 - The scripts in this repository include helpers to filter or normalize reviews (for example, removing reviews below 4 stars or handling null ratings).
 - If your JSON structure from APIvy differs, open the relevant script and adapt the parsing section accordingly.
 
-**Contributing**
+## Contributing
 - Feel free to open an issue or submit a PR with improvements, additional options (CLI flags), or better error handling.
